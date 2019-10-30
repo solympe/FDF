@@ -1,0 +1,97 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/Users/solympe/Desktop/TRY THIS/FdF.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/FdF.c.o"
+  "/Users/solympe/Desktop/TRY THIS/key_rotat.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/key_rotat.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_atoi.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_atoi.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_bzero.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_bzero.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_isalnum.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_isalnum.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_isalpha.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_isalpha.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_isascii.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_isascii.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_isdigit.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_isdigit.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_isprint.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_isprint.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_itoa.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_itoa.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_list_find.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_list_find.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_list_merge.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_list_merge.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_list_sort.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_list_sort.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstadd.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstadd.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstdel.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstdel.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstdelone.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstdelone.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstiter.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstiter.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstmap.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstmap.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_lstnew.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_lstnew.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memalloc.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memalloc.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memccpy.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memccpy.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memchr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memchr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memcmp.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memcmp.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memcpy.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memcpy.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memdel.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memdel.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memmove.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memmove.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_memset.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_memset.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putchar.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putchar.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putchar_fd.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putchar_fd.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putendl.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putendl.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putendl_fd.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putendl_fd.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putnbr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putnbr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putnbr_fd.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putnbr_fd.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putstr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putstr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_putstr_fd.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_putstr_fd.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_recursive_factorial.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_recursive_factorial.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_sqrt.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_sqrt.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strcat.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strcat.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strchr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strchr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strclr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strclr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strcmp.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strcmp.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strcpy.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strcpy.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strdel.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strdel.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strdup.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strdup.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strequ.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strequ.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_striter.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_striter.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_striteri.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_striteri.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strjoin.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strjoin.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strlcat.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strlcat.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strlen.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strlen.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strmap.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strmap.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strmapi.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strmapi.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strncat.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strncat.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strncmp.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strncmp.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strncpy.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strncpy.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strnequ.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strnequ.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strnew.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strnew.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strnstr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strnstr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strrchr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strrchr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strsplit.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strsplit.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strstr.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strstr.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strsub.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strsub.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_strtrim.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_strtrim.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_tolower.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_tolower.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/ft_toupper.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/ft_toupper.c.o"
+  "/Users/solympe/Desktop/TRY THIS/libft/get_next_line.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/libft/get_next_line.c.o"
+  "/Users/solympe/Desktop/TRY THIS/map_reader.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/map_reader.c.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/font.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/font.c.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_init_loop.m" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_init_loop.m.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_int_str_to_wordtab.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_int_str_to_wordtab.c.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_new_image.m" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_new_image.m.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_new_window.m" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_new_window.m.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_rgb.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_rgb.c.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_shaders.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_shaders.c.o"
+  "/Users/solympe/Desktop/TRY THIS/mlx/mlx_xpm.c" "/Users/solympe/Desktop/TRY THIS/cmake-build-debug/CMakeFiles/openelop.dir/mlx/mlx_xpm.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../."
+  "../libft"
+  "../mlx"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
