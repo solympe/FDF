@@ -12,32 +12,30 @@
 
 NAME = fdf
 
-CC = gcc
-CFLAGS =  -Wall -Wextra -Werror
-LIBA1 = libft.a
-LIBA2 = libmlx.a
+SRC = map_reader.c line_drawer.c rotate.c fdf.c kill_me.c
 
-FILES = rotate line_drawer map_reader FDF
-SRC =  $(patsubst  %,srcs/%.c, $(FILES))
-OBJECTS   =  $(patsubst %, %.o , $(FILES))
+OBJ = map_reader.o line_drawer.o rotate.o fdf.o kill_me.o
 
-.PHONY: all fclean clean re relib
+HEADER = fdf.h
+
+$(NAME): $(OBJ)
+	@make -C libft/
+	@gcc -Wall -Wextra -Werror $(SRC) -o $(NAME) -L libft -lft -L ./mlx/ -lmlx -framework OpenGL -framework AppKit 
+
+%.o:%.c $(HEADER)
+	@gcc -Wall -Wextra -Werror -I . -c $< -o $@
+
+clean:
+	@/bin/rm -f *~
+	@/bin/rm -f $(OBJ)
+	@make -C libft/ clean
+
+fclean: clean
+	@/bin/rm -f $(NAME)
+	@make -C libft/ fclean
 
 all: $(NAME)
 
-$(NAME):
-	@make re -C libft
-	@clang $(CFLAGS) -c $(SRC)  -I libft/ -I ./
-	@clang $(CFLAGS) $(OBJECTS) -I  libft/  -L. -lft -o $(NAME)
-clean:
-	rm -f $(OBJECTS)
-	make clean -C libft
-	make clean -C mlx
-
-fclean: clean
-	@rm -f $(NAME) $(LIB)
-
 re: fclean all
 
-relib:
-	make re -C libft
+.PHONY: clean fclean all re

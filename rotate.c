@@ -27,16 +27,6 @@ void	take_new_place(int keycode, void *param)
 		new_param->ky -= 10;
 }
 
-void	free_struct(t_dot3d **map)
-{
-	int i;
-
-	i = -1;
-	while (map[++i] != NULL)
-		free(map[i]);
-	free(map);
-}
-
 void	close_window(void *param)
 {
 	t_param	*new_param;
@@ -48,7 +38,7 @@ void	close_window(void *param)
 	exit(0);
 }
 
-int		key_press_down(int keycode, void *param)
+void	rotat(int keycode, void *param)
 {
 	t_param	*new_param;
 
@@ -65,12 +55,24 @@ int		key_press_down(int keycode, void *param)
 		new_param->m_change = change_coords(new_param->m_change, 0, 0, -0.1);
 	if (keycode == 14)
 		new_param->m_change = change_coords(new_param->m_change, 0, 0, 0.1);
+}
+
+int		key_press_down(int keycode, void *param)
+{
+	t_param	*new_param;
+
+	new_param = (t_param *)param;
+	if (keycode == 0 || keycode == 2 || keycode == 13
+		|| keycode == 1 || keycode == 12 || keycode == 14)
+		rotat(keycode, param);
 	if (keycode == 124 || keycode == 123 || keycode == 126 || keycode == 125)
 		take_new_place(keycode, param);
 	if (keycode == 6 || keycode == 7)
 		resize_figure(keycode, *new_param);
 	if (keycode == 53)
 		close_window(param);
+	if (keycode == 49)
+		swap_projections(param);
 	mlx_clear_window(new_param->mlx_ptr, new_param->win_ptr);
 	map_drawer(new_param->m_change, *new_param);
 	return (0);
